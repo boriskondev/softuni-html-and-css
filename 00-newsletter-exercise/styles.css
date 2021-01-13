@@ -1,0 +1,57 @@
+body, section, a, strong, p, img {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+strong, p {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: #1a1e71;
+}
+
+section.banner {
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+main {
+    max-width: 100%;
+    width: 800px;
+    margin: 15px auto;
+    padding: 0 118px;
+    box-sizing: border-box;
+}
+
+.button-and-banners {
+    position: relative;
+    margin-top: 30px;
+}
+
+section div {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    display: inline-block;
+    text-align: right;
+}
+
+.member-logo {
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.legal {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.legal p {
+    color: #5c5c5c;
+    font-size: 9px;
+}
+
+a:active {
+    color: #1a1e71;
+}
