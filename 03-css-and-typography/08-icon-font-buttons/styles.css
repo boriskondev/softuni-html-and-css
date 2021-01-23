@@ -1,0 +1,25 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+i {
+    padding-right: 5px;
+}
+
+p {
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn.click-me a{
+    background-color: #007d00;
+}
+
+.btn.email-me a{
+    background-color: #ff8a00;
+}
+
