@@ -1,0 +1,44 @@
+html {
+    font-family: Roboto, sans-serif;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid grey;
+}
+
+img {
+    max-width: 200px;
+    max-height: 90%;
+    padding: 0 10px;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #303030;
+}
+
+a:hover {
+    color: #909090;
+}
