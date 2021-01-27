@@ -12,7 +12,7 @@ nav {
     height: 80px;
     display: flex;
     align-items: center;
-    border: 0.5px solid grey;
+    /*border: 0.5px solid grey;*/
 }
 
 img {
