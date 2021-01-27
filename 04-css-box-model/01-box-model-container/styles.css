@@ -3,6 +3,6 @@ p {
     border: 5px solid black;
     border-radius: 10px;
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
     background-color: rgb(64, 224, 208);
 }

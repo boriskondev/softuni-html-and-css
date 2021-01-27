@@ -3,10 +3,13 @@ html {
     color: #1F1F1F;
 }
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
     border-bottom: 3px solid darkslategray;
-    width: 90%;
-    margin: auto;
 }
 
 ul {
@@ -35,9 +38,4 @@ nav {
 
 li {
     display: inline-block;
-}
-
-main {
-    width: 90%;
-    margin: auto;
 }
