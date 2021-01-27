@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: #1F1F1F;
+}
+
+header {
+    border-bottom: 3px solid darkslategray;
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: #7DAF43;
+}
+
+li a:visited {
+    color: #7DAF43;
+}
+
+.site-title {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
