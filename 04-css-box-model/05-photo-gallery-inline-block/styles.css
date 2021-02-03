@@ -1,3 +1,9 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
 .gallery {
     width: 90%;
     margin: auto;
@@ -5,21 +11,20 @@
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-
+    padding-left: 0;
 }
 
 li {
+    border: 0.4rem solid black;
     display: inline-block;
     text-align: center;
+    list-style: none;
+    vertical-align: middle;
+    margin: 10px;
 }
 
 img {
-    display: inline-block;
-    width: 90%;
-    max-width: 90%;
-    border: 0.4rem solid black;
+    max-width: 250px;
     padding: 10px;
 }
 
