@@ -1,0 +1,31 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+body {
+    margin: 0;
+}
+
+.card {
+    display: block;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+div.up {
+    background-color: #71d300;
+}
+
+div.down {
+    background-color: yellow;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-height: 90%;
+}
