@@ -19,8 +19,10 @@ body {}
     height: 100vh;
 }
 
-.week span {
+span {
+    margin: 1px;
     height: 50px;
+    padding-top: 10px;
 }
 
 .week {
@@ -38,6 +40,7 @@ body {}
 .week span:nth-child(5),
 .week span:nth-child(6) {
     flex-grow: 0.2;
+    flex-shrink: 0;
 }
 
 .week span:nth-child(7) {
@@ -58,7 +61,7 @@ body {}
 }
 
 .notes span {
-    height: 100px;
+    height: 114px;
 }
 
 .notes span:nth-child(1) {
