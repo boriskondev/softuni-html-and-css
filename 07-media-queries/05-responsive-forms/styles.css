@@ -1,0 +1,90 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    position: relative;
+    width: 70%;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: -12px;
+    background-color: #F8F8F8;
+    border: 1px solid grey;
+    padding: 5px 40px 5px 10px ;
+    border-radius: 2px;
+    box-shadow: 0 0 4px 2px lightgray;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    padding: 20px 10px;
+    max-width: 300px;
+    z-index: -1;
+    border-radius: 2px;
+    box-shadow: 0 0 4px 2px lightgray;
+    background-color: #F8F8F8;
+}
+
+i {
+    position: relative;
+    left: 8%;
+}
+
+form > * {
+    margin: 5px;
+}
+
+.username input,
+.password input {
+    padding: 5px 5px 5px 25px;
+    border: 0.5px solid lightgray;
+}
+
+.username label,
+.password label {
+    font-weight: bold;
+}
+
+.username {
+    flex-basis: 100%;
+}
+
+.password {
+    flex-basis: 100%;
+}
+.username label {
+    flex-basis: 100%;
+}
+
+.input input {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 300px) {
+    i {
+        position: relative;
+        left: -20%;
+        bottom: -50%;
+    }
+}

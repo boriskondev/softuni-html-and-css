@@ -1,0 +1,142 @@
+html, * {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header nav ul li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #1F1F1F;
+    border-radius: 5px;
+    font-size: 16px
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+
+img {
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+header {
+    flex-basis: 100%;
+}
+
+main {
+    flex-basis: 70%;
+    margin-right: 20px;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+section:nth-child(1) img {
+    float: right;
+}
+
+section:nth-child(3) img {
+    float: left;
+}
+
+.blockquote {
+    display: flex;
+}
+
+.blockquote > p {
+    flex-basis: 50%;
+}
+
+.blockquote blockquote {
+    flex-basis: 50%;
+    font-style: italic;
+    font-family: Georgia, serif;
+    border-left: 5px solid #DCDCDC;
+    padding-left: 20px;
+}
+
+.blockquote blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 660px) {
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        border-bottom: none;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        border-top: 2px solid rgb(0, 0, 0);
+        border-bottom: 2px solid rgb(0, 0, 0);
+        border-radius: unset;
+    }
+
+    .menu {
+        display: block;
+        text-align: center;
+    }
+
+    section:nth-child(1) img {
+        float: none;
+        order: 1;
+        width: 100%;
+    }
+
+    section:nth-child(3) img {
+        float: none;
+        order: 1;
+        width: 100%;
+    }
+
+    .blockquote {
+        flex-direction: column;
+    }
+}
+
