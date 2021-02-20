@@ -3,4 +3,9 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
 }

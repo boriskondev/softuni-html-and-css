@@ -1,0 +1,43 @@
+.faqs {
+    border-bottom: 8px solid #222222;
+    background-color: black;
+    color: white;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.faqs h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.faqs h3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.faqs-bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.faqs-bars button {
+    font-size: 26px;
+    font-weight: 100;
+    margin: 5px;
+    padding: 20px;
+    background-color: #303030;
+    border-style: none;
+    color: white;
+    text-align: left;
+}
+
+.faqs .create-account {
+    width: 50%;
+    margin: 0 auto 70px auto;
+}

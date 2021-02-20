@@ -1,0 +1,40 @@
+footer a, footer p {
+    color: #757575;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 100px;
+    max-width: 1000px;
+}
+
+footer .footer-wrapper > * {
+    margin: 20px 0;
+    flex-basis: 100%;
+}
+
+footer a {
+    font-size: 13px;
+}
+
+footer .footer-wrapper > a {
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer-links a {
+    margin: 10px 0;
+    padding-right: 50px;
+    align-items: flex-start;
+}
