@@ -1,16 +1,18 @@
-footer a, footer p {
+footer a,
+footer p {
     color: #757575;
 }
 
 footer {
     width: 100%;
+    margin: 50px 80px;
 }
 
 footer .footer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 40px 100px;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 footer .footer-wrapper > * {
@@ -26,15 +28,20 @@ footer .footer-wrapper > a {
     font-size: 16px;
 }
 
-.footer-links {
+footer .footer-links {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width: 80%;
+    margin: 0;
+    padding: 0;
 }
 
-.footer-links a {
-    margin: 10px 0;
-    padding-right: 50px;
-    align-items: flex-start;
+footer li {
+    flex-basis: 25%;
+    margin-bottom: 10px;
 }
+
+/*.footer-links a {*/
+/*    margin: 10px 0;*/
+/*    padding-right: 50px;*/
+/*    align-items: flex-start;*/
+/*}*/
