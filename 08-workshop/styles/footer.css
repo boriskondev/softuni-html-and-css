@@ -6,6 +6,7 @@ footer p {
 footer {
     box-sizing: border-box;
     margin: 50px 80px;
+
 }
 
 footer .footer-wrapper {
@@ -37,4 +38,11 @@ footer .footer-links {
 footer li {
     flex-basis: 25%;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width : 768px) {
+
+    footer li {
+        flex-basis: 40%;
+    }
 }

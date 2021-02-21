@@ -30,6 +30,8 @@ header nav button {
 }
 
 header article {
+    display: flex;
+    flex-direction: column;
     width: 60%;
     margin: 100px auto;
     text-align: center;
@@ -79,7 +81,27 @@ header article h1 {
 }
 
 @media screen and (max-width : 768px) {
-    header h1 {
-        color: red;
+
+    header article {
+        width: 90%;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    .create-account {
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+    }
+
+    .create-account input {
+        height: 60px;
+        flex-basis: 100%;
+    }
+
+    .create-account button {
+        margin: 10px 0;
+        height: 60px;
+        flex-basis: 50%;
     }
 }

@@ -31,3 +31,23 @@
 .advantages article:nth-child(2) div {
     order: 2;
 }
+
+
+@media screen and (max-width : 768px) {
+    .advantages article {
+        flex-direction: column;
+    }
+
+    .advantages article img {
+        max-width: 80%;
+    }
+
+    .advantages article:nth-child(2) img {
+        order: 2;
+    }
+
+    .advantages article:nth-child(2) div {
+        order: 1;
+    }
+
+}
