@@ -4,14 +4,13 @@ footer p {
 }
 
 footer {
-    width: 100%;
+    box-sizing: border-box;
     margin: 50px 80px;
 }
 
 footer .footer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -39,9 +38,3 @@ footer li {
     flex-basis: 25%;
     margin-bottom: 10px;
 }
-
-/*.footer-links a {*/
-/*    margin: 10px 0;*/
-/*    padding-right: 50px;*/
-/*    align-items: flex-start;*/
-/*}*/

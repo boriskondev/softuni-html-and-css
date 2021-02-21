@@ -1,6 +1,7 @@
 .advantages {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .advantages article {
@@ -9,16 +10,18 @@
     border-bottom: 8px solid #222222;
     background-color: black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .advantages article .text {
     z-index: 1;
     color: white;
     padding: 50px;
+    flex-basis: 50%;
 }
 
 .advantages article img {
-    height: 80%;
+    max-width: 50%;
 }
 
 .advantages article:nth-child(2) img {
