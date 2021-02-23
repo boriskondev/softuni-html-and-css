@@ -1,0 +1,34 @@
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img {
+    height: 80%;
+    padding: 20px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #4F4F65;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #4F4F65;
+}
+
+nav ul li a:hover {
+    color: #4F4F65;
+}

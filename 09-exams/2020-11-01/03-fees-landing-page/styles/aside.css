@@ -1,0 +1,16 @@
+aside {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+aside h2 {
+    flex-basis: 100%;
+}
+
+aside .info {
+    flex-basis: 70%;
+}

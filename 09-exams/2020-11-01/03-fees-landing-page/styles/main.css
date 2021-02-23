@@ -1,0 +1,41 @@
+main {
+    margin: 200px auto 100px auto;
+    text-align: left;
+    width: 75%;
+}
+
+table {
+    width: 100%;
+    margin: 50px auto;
+}
+
+i {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+table {
+    border-collapse:collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.fa-check {
+    color: #12A945;
+}
+
+.fa-times {
+    color: #FC4C50;
+}
