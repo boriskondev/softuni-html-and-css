@@ -1,0 +1,27 @@
+@media screen and (max-width : 600px) {
+
+    .w3-right {
+        display: none;
+    }
+
+    section .w3-padding-64 {
+        display: flex;
+    }
+
+    main section:nth-child(1) article:nth-child(1) {
+        display: none;
+    }
+
+    main section:nth-child(1) article:nth-child(2) {
+        width: 90%;
+    }
+
+    section#menu article:nth-child(1){
+        width: 90%;
+    }
+
+    section#menu article:nth-child(2){
+        width: 90%;
+    }
+
+}
