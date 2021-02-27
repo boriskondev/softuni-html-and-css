@@ -1,0 +1,178 @@
+header {
+    background-image:
+            linear-gradient(rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)),
+            url("../images/hero-certificates.jpg");
+    z-index: 1;
+}
+
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.75);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 20px;
+    z-index: 2;
+    background-color: white;
+}
+
+.logo-header img {
+    height: 50px;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-header li {
+    padding: 7px;
+}
+
+.nav-header li:not(:last-child):hover {
+    border-top: 3px solid #42ABF8;
+}
+
+.profile {
+    padding-left: 7px;
+    border-radius: 16px;
+    background-color: #42ABF8;
+    color: white;
+}
+
+header .header-articles {
+    margin: 30px auto 0 auto;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .header-articles article {
+    flex-basis: 45%;
+}
+
+header .header-articles article:nth-child(1) {
+    background-color: #29394B;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+header .header-articles article:nth-child(2) {
+    text-align: center;
+        /*margin: 0 auto;*/
+}
+
+header .header-articles article:nth-child(2) img:nth-child(1) {
+    position: relative;
+    left: 3px;
+}
+
+header section .asterisk {
+    position: relative;
+    left: 143px;
+    bottom: 10px;
+    padding: 10px 0;
+    color: #29394B;
+    font-style: italic;
+}
+
+main section {
+    margin: 50px auto;
+}
+
+main section article {
+    margin: 50px auto;
+    width: 80%;
+}
+
+main section h1 {
+    text-align: center;
+}
+
+.description-content {
+    background-color: #F4F5F7;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(rgba(41, 57, 76, 0.5), rgba(41, 56, 76, 0.5)), url("../images/sign-up-prompt-background.jpg");
+    border-radius: 5px;
+    color: white;
+    z-index: 1;
+}
+
+.apply button {
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.apply button:nth-child(1) {
+    background-color: white;
+    color: #42ABF8;
+}
+
+.apply button:nth-child(3) {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.line {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    /*margin: auto 0;*/
+}
+
+footer {
+    border-top: 2px solid grey;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li {
+    font-size: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left li {
+    margin: 0 10px;
+}
+
+.left li img {
+    height: 50px;
+}
+
+.right {
+    display: flex;
+}
+
+.right li {
+    margin: 0 5px;
+}
