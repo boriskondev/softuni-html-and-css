@@ -1,0 +1,13 @@
+header {
+    padding: 40px 0;
+    background-color: #FFB402;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: -1;
+}
+
+header p {
+    display: inline-block;
+    width: 50%;
+}

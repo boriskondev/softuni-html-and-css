@@ -1,0 +1,48 @@
+@media screen and (max-width : 600px) {
+
+    .header-img-wrapper {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation-list-items {
+        margin-top: 30px;
+    }
+
+    .navigation-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .navigation-list-item {
+        margin: 2px;
+    }
+
+    .header-content-text {
+        width: 90%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefit {
+        margin: 20px 0;
+    }
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-section-item {
+        margin: 20px 0;
+        width: 90%;
+    }
+}

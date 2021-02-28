@@ -1,0 +1,35 @@
+footer {
+    background-color: #565656;
+    color: white;
+    padding: 20px;
+    border-top: 10px solid #919191;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-content section ul li {
+    padding: 5px 0;
+}
+
+.social ul {
+    display: flex;
+}
+
+.social ul i {
+    padding-right: 12px;
+    font-size: 24px;
+}

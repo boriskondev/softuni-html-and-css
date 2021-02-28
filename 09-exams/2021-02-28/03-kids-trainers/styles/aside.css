@@ -1,0 +1,54 @@
+aside {
+    background-color: #66B9F8;
+    text-align: center;
+    padding: 40px 0 120px 0;
+    color: white;
+    border-top: 10px solid #92CDFB;
+}
+
+aside .content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+aside form {
+    margin-top: 40px;
+}
+
+form input {
+    color: white;
+    border: 1.5px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+form div {
+    display: inline-block;
+    position: relative;
+}
+
+form div label {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+form div {
+    margin: 0 5px;
+}
+
+button {
+    background-color: #FF9100;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 35px;
+    font-weight: bold;
+    margin-left: 10px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.2);
+}
+

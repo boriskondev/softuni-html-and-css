@@ -1,0 +1,111 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    background-color: #66B9F8;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1, h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    color: #FF960D;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+p, span {
+    font-size: 14px;
+}
+
+span {
+    color: #CCCCCC;
+    padding-bottom: 5px;
+}
+
+section {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    justify-content: space-between;
+}
+
+article {
+    flex-basis: 25%;
+    margin: 10px;
+
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details img {
+    padding-right: 5px;
+}
+
+.article-copy {
+    padding: 10px;
+    position: relative;
+    top: -4px;
+}
+
+article img {
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+article div {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF960D;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a:after {
+    content: " > ";
+}
+
+.wrapper {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    right: 100px;
+    bottom: 65px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
